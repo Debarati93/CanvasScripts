@@ -1,0 +1,61 @@
+package stepDefinition
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.And;
+
+public class CloseAccountStepDefinitions {
+
+    @Given("^user is on the Application's main page$")
+    public void user_is_on_the_applications_main_page() throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^user clicks on the Account management button on the application$")
+    public void user_clicks_on_the_account_management_button_on_the_application() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^user should be able to see all the account details for the customer$")
+    public void user_should_be_able_to_see_all_the_account_details_for_the_customer() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^user should be able to see the successful account closing message$")
+    public void user_should_be_able_to_see_the_successful_account_closing_message() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^user lands on the Account management page$")
+    public void user_lands_on_the_account_management_page() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^user provides the (.+),(.+),(.+)$")
+    public void user_provides_the_(String customerid, String accounttype, String accountnumber) throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^user clicks on the search button$")
+    public void user_clicks_on_the_search_button() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^user clicks on the close account button$")
+    public void user_clicks_on_the_close_account_button() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^user provides reason to close the account as (.+)$")
+    public void user_provides_reason_to_close_the_account_as(String closereason) throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^user clicks on the submit button$")
+    public void user_clicks_on_the_submit_button() throws Throwable {
+        throw new PendingException();
+    }
+
+}

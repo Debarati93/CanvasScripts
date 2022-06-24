@@ -1,0 +1,51 @@
+package stepDefinitions
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.And;
+
+public class SalaryAccountStepDefinitions {
+
+    @Given("^user is on the Application's main page$")
+    public void user_is_on_the_applications_main_page() throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^user clicks on the Account creation button on the application$")
+    public void user_clicks_on_the_account_creation_button_on_the_application() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^user should be able to see the successful account creation message$")
+    public void user_should_be_able_to_see_the_successful_account_creation_message() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^user lands on the Account creation page$")
+    public void user_lands_on_the_account_creation_page() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^user selects the Salary Account option$")
+    public void user_selects_the_salary_account_option() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^user provides all the details (.+), (.+) , (.+) ,(.+),(.+) $")
+    public void user_provides_all_the_details_(String customername, String dob, String address, String contactnumber, String govtidnum) throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^user provides the details as (.+),(.+),(.+),(.+)$")
+    public void user_provides_the_details_as_(String companyname, String employeeid, String dateofjoining, String grosssalary) throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^user clicks on the submit button$")
+    public void user_clicks_on_the_submit_button() throws Throwable {
+        throw new PendingException();
+    }
+
+}
